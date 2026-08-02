@@ -1,0 +1,15 @@
+{
+  "name": "deep-package-sillyname",
+  "version": "1.0.0",
+  "description": "just testing the package",
+  "license": "ISC",
+  "author": "Deepanshu Sharawat",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sillyname": "^0.1.0"
+  }
+}
