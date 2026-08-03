@@ -16,9 +16,19 @@
 // });
 
 
-var abc = require("sillyname");
-var ff = abc();
+// var abc = require("sillyname");
+// var ff = abc();
 
-for(var i = 0 ; i<10; i++){
-console.log(`my name is ${ff}.`);
-}
+// for(var i = 0 ; i<10; i++){
+// console.log(`my name is ${ff}.`);
+// }
+
+// import abc from "sillyname";
+// var x = abc();
+
+// console.log(`my name is ${x}`);
+
+import superheroes from "superheroes";
+
+console.log(superheroes);      // Array of names
+console.log(superheroes[0]);   // First superhero
