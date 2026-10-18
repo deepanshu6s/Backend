@@ -1,6 +1,5 @@
-import { readFile } from 'node:fs';
-
-readFile('NewFile.txt',"utf8", (err, data) => {
-  if (err) throw err;
-  console.log(data);
-}); 
+const fs = require("fs");
+fs.writeFile("newfile.txt", "hello from nodejs", (err) => {
+  if(err) throw err;
+  console.log("file saved")
+})
