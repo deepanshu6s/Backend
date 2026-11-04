@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const fs = require("fs");
 
 fs.writeFile("message.txt", "Hello Node", (err) => {
@@ -9,3 +10,9 @@ fs.readFile("message.txt", "utf8", (err, data) => {
   if (err) throw err;
   console.log(data);
 });
+=======
+import hahah from "superheroes";
+var ab = hahah();
+
+console.log(`hello , my name is ${ab}`);
+>>>>>>> origin/main
