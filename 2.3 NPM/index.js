@@ -1,6 +1,5 @@
-var generateName = require('sillyname');
+import superheroes from "superheroes";
 
-import generateName from "sillyname"; 
-var sillyName = generateName();
+const name = superheroes.random();
 
-console.log(`My name is ${sillyName}`);
+console.log(`my name is ${name}.`);
